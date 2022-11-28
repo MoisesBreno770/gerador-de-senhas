@@ -29,5 +29,5 @@ function generatePassword(){
 
 function copyPassword(){
     navigator.clipboard.writeText(novaSenha);
-    swal("Sucesso","Código copiado para a Área de transferência!","success");
+    alert("Senha copiada");
 }
